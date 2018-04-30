@@ -46,3 +46,21 @@ const newPerson = {
 }
 
 console.log(newPerson);
+
+// rest operator
+const filter = (...args) =>{
+    return args.filter(el => el === 1);
+}
+
+console.log(filter(1,2,3));
+
+// Destructuring
+// allows you to extract array elements
+//or object proprties and store them in variables
+const numbers = [1,2,3];
+[num1, , num3] = numbers;
+console.log(num1, num3)
+
+const {name, age} = {name:'Max', age:28}
+console.log(name)
+console.log(age)
