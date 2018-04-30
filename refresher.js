@@ -9,7 +9,7 @@ class Human{
 
 }
 
-
+// extending a class, note that you can also use this method to extend an extended class
 
 class Person extends Human{
     constructor() {
